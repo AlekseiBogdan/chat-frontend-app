@@ -1,0 +1,56 @@
+.app-container__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  width: 375px;
+  height: 812px;
+  border-radius: 24px;
+  overflow-x: hidden;
+  background-color: white;
+  position: relative;
+}
+
+.app-container__header {
+  margin-top: -2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 375px;
+  height: 188px;
+  gap: 10px;
+  position: absolute;
+  z-index: 0;
+
+  background: url("../../public/4e3b0255a8a4b0db2c20ed9a880fef82.png") no-repeat;
+  overflow: hidden;
+}
+
+.app-container__header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+
+  font-family: 'SF Pro Text', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height, or 123% */
+  letter-spacing: -0.08px;
+  color: #EBEDF0;
+}
+
+.app-container__header-text-main {
+  font-family: 'SF Pro Display', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.38px;
+}
+

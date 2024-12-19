@@ -1,0 +1,44 @@
+.app-container__tabbar {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+    height: 83px;
+    border-top: 1px solid #EBEDF0;
+}
+
+.app-container__tabbar-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 49px;
+    width: 94px;
+    gap: 3px;
+}
+
+.app-container__tabbar-item span {
+    font-family: 'VK Sans Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.015em;
+
+    color: #99A2AD;
+}
+
+.app-container__tabbar-item:hover {
+    cursor: pointer;
+}
+
+.app-container__tabbar-item:active svg {
+    fill: #2975CC;
+}
+
+.app-container__tabbar-item:active span {
+    color: #2975CC;
+}

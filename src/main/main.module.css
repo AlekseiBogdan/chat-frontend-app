@@ -1,0 +1,249 @@
+.main-container {
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    margin-top: 156px;
+    z-index: 2;
+    position: absolute;
+    width: 351px;
+    height: 616px;
+    background-color: #fff;
+    padding: 24px 12px 0 12px;
+}
+
+.main-requests {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.main-requests a {
+    font-family: 'SF Pro Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+
+    letter-spacing: -0.15px;
+
+    /* Light Button / Tertiary Foreground */
+    color: #2D81E0;
+}
+
+.main-header {
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.38px;
+
+    /* Light Field/Light Header/Text */
+    color: #000000;
+}
+
+.main-chat-redirect {
+    border-radius: 10px;
+    /* Set 6. Cover */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 351px;
+    height: 120px;
+
+    background: url("../../public/cf729f87f5a82350772686f272736f2c.png") no-repeat;
+    background-size: cover;
+    border: 0.33px solid rgba(0, 0, 0, 0.08);
+    padding: 12px 16px;
+    margin-bottom: 20px;
+}
+
+.main-chat-redirect-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.main-chat-redirect-header__white {
+    font-family: 'SF Pro Text', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    letter-spacing: -0.32px;
+
+    /* White / White */
+    color: #FFFFFF;
+}
+
+.main-chat-redirect-header__gray {
+    /* Show/Hide Subtitle */
+
+    width: 186px;
+    display: inline-block;
+
+    /* SF Caption 1 Regular */
+    font-family: 'SF Pro Text', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.08px;
+
+    /* White / White */
+    color: #FFFFFF;
+
+    opacity: 0.72;
+}
+
+.main-chat-redirect__btn {
+    font-family: 'SF Pro Text', sans-serif;
+    /* ↳ Label */
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+
+    letter-spacing: -0.15px;
+
+    color: #007AFF;
+    background-color: #FFFFFF;
+    /* x / Button Base */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5.5px 16px 6.5px;
+    gap: 8px;
+
+    width: 183px;
+    height: 30px;
+    outline: none;
+    border-radius: 10px;
+}
+
+button, button:focus{
+    outline: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+
+    font-family: 'SF Pro Text', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    /* or 123% */
+    letter-spacing: -0.08px;
+
+    /* Light Text  /  Subhead */
+    color: #6D7885;
+}
+
+.main-cards {
+    display: flex;
+    gap: 12px;
+    flex: 1 0 auto;
+    width: max-content;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.main-card {
+    display: flex;
+    gap: 12px;
+    /* Left */
+    padding-top: 12px;
+    padding-left: 16px;
+    width: 287px;
+    height: 96px;
+
+    background: #FFFFFF;
+    /* Elevation 8 pt · Cards */
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.08), 0px 2px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+.main-card-header {
+    font-family: 'SF Pro Text', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    letter-spacing: -0.32px;
+
+    /* Light Text  /  Primary */
+    color: #000000;
+}
+
+.main-bottom-card {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 16px;
+
+    width: 351px;
+    height: 170px;
+
+    background: #F5F5F5;
+
+    border: 0.33px solid rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+.main-bottom-card__header {
+    /* SF Title 3 Medium */
+    font-family: 'SF Pro Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 129% */
+    letter-spacing: -0.41px;
+
+    /* Light Text  /  Primary */
+    color: #000000;
+}
+
+.main-bottom-card__txt {
+    width: 271px;
+    height: 60px;
+    display: inline-block;
+
+    font-family: 'SF Pro Text', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 133% */
+    letter-spacing: -0.24px;
+
+    /* Light Text  /  Subhead */
+    color: #6D7885;
+}
+
+.main-bottom-card__btn {
+    width: 115px;
+    height: 36px;
+    padding: 0 16px;
+
+    background-color: #2D81E0;
+    border-radius: 10px;
+}
